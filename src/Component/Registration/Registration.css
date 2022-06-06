@@ -1,0 +1,16 @@
+.modalContainer .fas{
+    font-size: 60px;
+    color: #4077d5;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+}
+.verify{
+    display: block;
+    background-color: rgba(31, 211, 133, 0.855);
+    margin: 5px 0;
+    padding: 10px;
+    color: white;
+    font-family: 'Poppind',sans-serif;
+    text-align: center;
+}

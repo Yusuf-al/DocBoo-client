@@ -1,0 +1,47 @@
+.doc-main-left{
+    background-color: #ffffff;
+    height: 600px;
+    padding: 15px;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+
+}
+/* .doc-gen-div{
+    display: flex;
+  justify-items: center;
+  grid-gap: 10px
+} */
+
+.profileW-list{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.profileW-list a{
+    color:var(--main-font);
+    margin:15px 10px;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.profileW-list .icn{
+    margin-right: 15px;
+    color: #001f3d;
+}
+.profileW-list a{
+    color:var(--main-font);
+    margin:10px 10px;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    align-items: center;
+}
+.doc-photo{
+    display: flex;
+    justify-content: center;
+}
+.doc-photo img{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    object-fit: cover;
+}

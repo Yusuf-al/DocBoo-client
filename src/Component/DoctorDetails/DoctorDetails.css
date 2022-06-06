@@ -1,0 +1,140 @@
+.dp-container{
+    background-color: #ffffff;
+}
+
+.intro-section-dp{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+.profile-img-dp img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.profile-info-dp{
+    /* background-color: #6199ff; */
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.profile-info-dp>h3{
+    font-size: 25px;
+    color: #447ab1;
+}
+
+.profile-info-dp>h4{
+    font-size: 22px;
+    color: #011b35;
+    margin-top: 2px;
+}
+.profession-info-dp{
+    margin-top: 5px;
+    line-height: 25px;
+}
+.email-dp,.mobile-dp{
+    display: flex;
+    height: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+.mobile-dp i,.email-dp i{
+    margin-right: 10px;
+}
+.gender-xp-dp{
+    display: flex;
+    margin: 7px 0;
+}
+.gender-xp-dp p{
+    margin-right: 15px;
+    border: .5px solid #3f71a4;
+    border-radius: 50px;
+    font-size: 15px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding: 12px 17px;
+}
+.gender-xp-dp p>span{
+    margin-right: 5px;
+}
+.speciality-dp{
+    display: flex;
+    margin-top: 20px;
+}
+.speciality-dp>h4{
+    margin-right: 10px;
+}
+.speciality-info-dp{
+    display: flex;
+}
+.speciality-info-dp>p{
+    margin-right: 10px;
+    padding: 12px 15px;
+    font-size: 15px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border: .5px solid #252d3c;
+}
+
+
+.about-doc-sec-dp{
+    padding: 20px;
+    border-top: 1px solid #dddddd;
+}
+
+.about-doc-sec-dp>h3{
+    margin: 10px 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+}
+.about-doc-sec-dp>p{
+    text-align: justify;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 10px;
+}
+.doc-rating-dp{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.rating-icon{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.rating-icon i{
+    margin-right: 5px;
+    color: var(--scnd-bg);
+}
+.vote-amount-dp{
+    margin: auto;
+}
+.check-verified{
+    margin:25px auto;
+}
+
+.check-verified::before{
+    content: '\2713';
+    background-color: #5bfd8c;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 2px;
+    padding: 2px 5px;
+    font-weight: bolder;
+    /* color: white; */
+}
+
+.verified-tik{
+    background-color: #5bfd8c;
+    padding: 3px;
+    color: white;
+    border-radius: 50%;
+}

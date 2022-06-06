@@ -1,0 +1,26 @@
+.chamber-form{
+    width: 60%;
+    margin: 40px auto;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(223, 223, 223);
+    transition:all .5s;
+}
+.timingAdd{
+    display: grid;
+    grid-template-columns: 90px 80px 25px 80px 100px;
+    grid-column-gap: 10px;
+    margin: 15px 0;
+    align-items: center;
+    justify-content: space-around;
+}
+.to-span{
+    color: rgb(11, 2, 23);
+    margin: 0 5px;
+}
+.offday-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

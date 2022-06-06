@@ -1,0 +1,133 @@
+.middle-section{
+    height: 1500px;
+    width: 100%;
+    border-radius: 20px;
+    margin:10px;
+    padding: 10px;
+}
+.user-card{
+    display: flex;
+    /* background-color: var(--color-opt-gray); */
+    border-radius: 10px;
+    height: 300px;
+    margin: 0px 5px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.user-img{
+    border-radius: 50%;
+    height: 300px;
+    width: 40%;
+}
+
+.user-info{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    /* border:1px solid black; */
+    width: 60%;
+}
+
+
+.user-info h3{
+    color: var(--color-opt-light-blue);
+    text-transform: capitalize;
+    padding:0px 10px;
+    font-size: 25px;
+}
+
+.user-info>h4{
+    color: var(--scnd-bg-gray);
+    text-transform: capitalize;
+    padding:0px 10px;
+    font-size: 20px;
+}
+
+.degree-info{
+    font-size: 15px;
+    color: #b9b9b9;
+    padding-left: 10px;
+    margin-top: 5px;
+    line-height: 23px;
+
+}
+
+.user-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    margin-top:5px;
+    
+}
+.contact-info i{
+    color: var(--color-opt-light-blue);
+    margin-right: 10px;
+}
+
+.speciality{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+}
+.speciality h4{
+    font-size: 15px;
+    color: var(--scnd-bg-gray);
+    margin-right: 15px;
+    /* margin: 15px 0 8px 0; */
+
+}
+
+.speciality>div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.speciality>div>p{
+    border:1px solid var(--scnd-bg-gray);
+    border-radius: 20px;
+    color: #011b35;
+    font-size: 12px;
+    margin-right: 10px;
+    align-items: center;
+    padding: 0px 8px;
+}
+.visit-profile-btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+}
+.like-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: var(--scnd-bg-gray);
+}
+
+.like-icon>i{
+    margin-right: 10px;
+}
+.like-icon>p{
+    margin-top: -5px;
+}
+.profile-link-btn>a{
+    background-color: var(--scnd-bg-gray);
+    padding: 5px 15px;
+    color: var(--color-opt-gray);
+    border-radius: 20px;
+    margin-right: 20px;
+    transition: all .3s;
+}
+.profile-link-btn a:hover{
+    background-color: #447ab1;
+}

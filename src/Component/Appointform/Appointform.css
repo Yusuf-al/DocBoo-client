@@ -1,0 +1,144 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200, 0.512);
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modalContainer {
+    width: 35%;
+    min-height: 250px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px; 
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: transform, opacity;
+    animation: fadeInDown .3s ease-in-out;
+    
+  }
+ 
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: #d2d1d1b5;
+    border: none;
+    font-size: 16px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+  }
+  
+  .form-grp{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-grp label{
+color: rgb(30, 7, 132);
+margin: 5px 0;
+}
+
+
+.form-grp input,.form-grp select{
+    padding: 10px;
+    height: 40px;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+.form-grp textarea{
+    height: 70px;
+    resize: none;
+    padding: 10px;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+}
+  #cancelBtn {
+    background-color: crimson;
+  }
+  @media screen and (max-width: 720px){
+    .modalBackground{
+      width: 100%;
+    }
+  }
+  .tags-grp{
+    background-color: #e0e0e0;
+    padding: 3px 12px;
+    border-radius: 23px;
+    margin-right: 5px;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .tag-close-btn{
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    margin-left: 5px;
+    padding: 0px 3px;
+  }
+
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

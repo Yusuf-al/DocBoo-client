@@ -1,0 +1,7 @@
+.doc-main-profile{
+    display: grid;
+    grid-template-columns: 22% 75%;
+    grid-column-gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

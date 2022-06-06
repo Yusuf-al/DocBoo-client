@@ -1,0 +1,29 @@
+.log-in-popup{
+    background-color: #eaf2fa;
+    padding: 10px;
+    min-width: 150px;
+    min-height: 80px;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 10px;
+}
+.log-in-popup::before{
+    content: " ";
+    position: absolute;
+    background-color: #eaf2fa;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    top: -3px;
+    right: 45px;
+}
+.log-in-popup>*{
+    display: block;
+    margin-top: 5px;
+    text-align: end;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
